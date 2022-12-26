@@ -2,7 +2,7 @@
 
 ### App Description
 
-`TODO://` Guided App Project for CodePath's iOS 102 Intermediate iOS App Development Course for Spring 2023.
+Guided App Project for CodePath's iOS 102 Intermediate iOS App Development Course for Spring 2023.
 
 ### App Walk-though
 

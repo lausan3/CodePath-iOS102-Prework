@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberOfPets: UILabel!
     @IBOutlet weak var petsStepper: UIStepper!
     @IBOutlet weak var wantMorePetsSwitch: UISwitch!
-    
     @IBAction func petsStepperEvent(_ sender: UIStepper) {
         
         numberOfPets.text = "\(Int(sender.value))"
@@ -41,11 +40,12 @@ class ViewController: UIViewController {
         present(alertController, animated:true, completion: nil)
     }
     
+    @IBAction func tapGestureRecognizer(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-
