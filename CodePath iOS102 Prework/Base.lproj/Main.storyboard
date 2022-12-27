@@ -63,6 +63,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="dkdlsk:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Oyr-Sx-z8B"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1I4-TL-sPr">
                                 <rect key="frame" x="106" y="332" width="250" height="34"/>
@@ -106,6 +109,10 @@
                                     <action selector="petsStepperEvent:" destination="BYZ-38-t0r" eventType="valueChanged" id="yMJ-X7-S8d"/>
                                 </connections>
                             </stepper>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hunterlogo" translatesAutoresizingMaskIntoConstraints="NO" id="amD-Kn-loI">
+                                <rect key="frame" x="75" y="102" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tn-4c-Jdc">
                                 <rect key="frame" x="71" y="549" width="27" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -113,10 +120,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hunterlogo" translatesAutoresizingMaskIntoConstraints="NO" id="amD-Kn-loI">
-                                <rect key="frame" x="75" y="102" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbU-EH-vWF">
+                                <rect key="frame" x="72" y="664" width="250" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Randomize Background Color"/>
+                                <connections>
+                                    <action selector="randomizeColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bqz-Ri-XbH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wLR-0O-vYl"/>
                         <keyboardLayoutGuide key="keyboard" id="AtC-iu-GIJ"/>

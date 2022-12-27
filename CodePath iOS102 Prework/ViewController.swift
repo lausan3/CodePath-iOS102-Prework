@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         
         numberOfPets.text = "\(Int(sender.value))"
     }
+    @IBAction func randomizeColorButton(_ sender: UIButton) {
+        
+    }
     
     @IBAction func introduceSelfButton(_ sender: UIButton) {
         
