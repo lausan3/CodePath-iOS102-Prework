@@ -6,9 +6,13 @@ Guided App Project for CodePath's iOS 102 Intermediate iOS App Development Cours
 
 ### App Walk-though
 
+<<<<<<< HEAD
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif). LICEcap is a great tool for recording and you can simply upload the gif to GitHub and provide the path name in place of URL as shown below.
 
 <!-- <img src="https://github.com/lausan3/CodePath-iOS102-Prework/blob/main/iOS102Gif.gif" width=200><br>-->
+=======
+<!-- <img src="https://github.com/lausan3/CodePath-iOS102-Prework/blob/main/iOS102Gif.gif" width=200><br> -->
+>>>>>>> cdacf778c27e6f8f6045b8ce96c84a11a30eab4d
 
 ### Required Features
 
