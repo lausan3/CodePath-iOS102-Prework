@@ -21,7 +21,9 @@ class ViewController: UIViewController {
         numberOfPets.text = "\(Int(sender.value))"
     }
     @IBAction func randomizeColorButton(_ sender: UIButton) {
+        let randomColor: UIColor = UIColor.init(red: CGFloat.random(in: 0..<1), green: CGFloat.random(in: 0..<1), blue: CGFloat.random(in: 0..<1), alpha: 1)
         
+        view.backgroundColor = randomColor
     }
     
     @IBAction func introduceSelfButton(_ sender: UIButton) {
